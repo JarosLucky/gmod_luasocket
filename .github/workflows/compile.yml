@@ -5,6 +5,7 @@ on:
     paths:
       - '.github/workflows/compile.yml'
       - 'source/**'
+      - 'luasocket/src/**'
       - 'premake5.lua'
   pull_request:
   workflow_dispatch:
